@@ -1,0 +1,25 @@
+{
+  "name": "chain-of-being",
+  "version": "1.0.0",
+  "description": "Layers of self-organizing emergent complexity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexburner/chain-of-being.git"
+  },
+  "keywords": [
+    "complex",
+    "integral",
+    "systems",
+    "emergence"
+  ],
+  "author": "aburner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexburner/chain-of-being/issues"
+  },
+  "homepage": "https://github.com/alexburner/chain-of-being#readme"
+}
