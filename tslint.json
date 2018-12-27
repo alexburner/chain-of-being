@@ -10,6 +10,17 @@
     "node_modules/tslint-microsoft-contrib"
   ],
   "rules": {
-    "semicolon": false
+    "interface-name": false,
+    "no-relative-imports": false,
+    "semicolon": false,
+    "trailing-comma": false,
+    "type-literal-delimiter": false,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ]
   }
 }
