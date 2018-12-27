@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-microsoft-contrib",
+    "tslint-immutable/all"
+  ],
+  "rulesDirectory": [
+    "node_modules/tslint/lib/rules",
+    "node_modules/tslint-immutable/rules",
+    "node_modules/tslint-microsoft-contrib"
+  ],
+  "rules": {
+    "semicolon": false
+  }
+}
