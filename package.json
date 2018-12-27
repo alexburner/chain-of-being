@@ -11,9 +11,12 @@
     "build": "rm -rf ./docs && parcel build --out-dir ./docs --public-url ./ ./src/index.html",
     "dev": "rm -rf ./dev && parcel --out-dir dev ./src/index.html",
     "tsc": "tsc --watch --noEmit",
-    "prettier": "prettier --write './src/**/*.+(json|md|scss|ts|tsx)'",
-    "tslint": "tslint --fix -p ./tsconfig.json './src/**/*.+(ts|tsx)'",
-    "format": "npm run prettier && npm run tslint",
+    "prettier:once": "prettier --write './src/**/*.+(json|md|scss|ts|tsx)'",
+    "tslint:once": "tslint --fix --force -p ./tsconfig.json './src/**/*.+(ts|tsx)'",
+    "fix:once": "npm run prettier:once && npm run tslint:once",
+    "prettier": "npm run prettier:once && onchange 'src/**/*.*' -- npm run prettier:once",
+    "tslint": "npm run tslint:once && onchange 'src/**/*.*' -- npm run tslint:once",
+    "fix": "npm run fix:once && onchange 'src/**/*.*' -- npm run fix:once",
     "clean": "rm -rf .cache && rm -rf ./dev"
   },
   "repository": {
@@ -35,6 +38,7 @@
   "devDependencies": {
     "@types/react": "16.7.18",
     "@types/react-dom": "16.0.11",
+    "onchange": "5.2.0",
     "parcel-bundler": "1.11.0",
     "prettier": "1.15.3",
     "sass": "1.15.2",
