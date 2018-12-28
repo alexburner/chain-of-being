@@ -11,7 +11,7 @@ npm install
 # Development
 npm run dev # run parcel dev server + watch (outputs to dev/)
 npm run tsc # run typescript compiler + watch (no emit, types only)
-npm run fix # run prettier & tslint + watch
+npm run fix # run prettier & tslint + watch (uses onchange package)
 
 # Build
 npm run build # (outputs to docs/)
