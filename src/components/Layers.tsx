@@ -8,7 +8,7 @@ export const Layers: React.SFC<{ readonly list: ReadonlyArray<LayerData> }> = ({
 }) => (
   <ul>
     {list.map((data) => (
-      <Layer data={data} />
+      <Layer key={data.title} data={data} />
     ))}
   </ul>
 )
