@@ -2,25 +2,32 @@
   "extends": [
     "tslint:recommended",
     "tslint-microsoft-contrib",
-    "tslint-immutable/all"
+    "tslint-immutable/all",
+    "tslint-config-prettier"
   ],
   "rulesDirectory": [
     "node_modules/tslint/lib/rules",
+    "node_modules/tslint-react/rules",
+    "node_modules/tslint-divid/rules",
     "node_modules/tslint-immutable/rules",
-    "node_modules/tslint-microsoft-contrib"
+    "node_modules/tslint-microsoft-contrib",
+    "node_modules/tslint-misc-rules/rules"
   ],
   "rules": {
-    "interface-name": false,
-    "no-relative-imports": false,
-    "semicolon": false,
-    "trailing-comma": false,
-    "type-literal-delimiter": false,
+    "camel-case-local-functions": true,
+    "interface-name": false, // Ew why is this recommended
+    "jsx-key": true,
+    "no-arguments": true,
+    "no-braces-for-single-line-arrow-functions": true,
+    "no-label": true,
+    "no-relative-imports": false, // Required for parcel bundler :(
+    "react-lifecycle-order": true,
     "variable-name": [
       true,
       "ban-keywords",
       "check-format",
       "allow-leading-underscore",
-      "allow-pascal-case"
+      "allow-pascal-case" // Required for React SFCs, supplemented by "camel-case-local-functions"
     ]
   }
 }
