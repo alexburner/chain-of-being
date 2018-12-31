@@ -1,0 +1,1 @@
+html{font-family:sans-serif;padding:10px 20px 30px}.layer{display:flex;margin-bottom:10px}.layer .thumb{flex:none;width:75px;height:75px}.layer .words{flex:1;display:flex;flex-direction:column;justify-content:center;padding:10px}.layer .words .title{font-size:18px;font-weight:700;margin-bottom:1px;opacity:.9}.layer .words .text{font-size:14px;font-style:italic;opacity:.8}

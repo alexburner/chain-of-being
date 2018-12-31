@@ -1,0 +1,43 @@
+html {
+  font-family: sans-serif;
+  padding: 10px 20px 30px;
+}
+
+.layer {
+  display: flex;
+  margin-bottom: 10px;
+
+  .thumb {
+    flex: none;
+
+    $size: 75px;
+    width: $size;
+    height: $size;
+  }
+
+  .words {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 10px;
+
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+
+      margin-bottom: 1px;
+
+      opacity: 0.9;
+    }
+
+    .text {
+      font-size: 14px;
+      font-style: italic;
+
+      opacity: 0.8;
+    }
+  }
+}
