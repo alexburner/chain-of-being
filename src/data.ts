@@ -1,5 +1,6 @@
 export interface LayerData {
   readonly title: string
+  readonly subtitle: string
   readonly text: string
   readonly img: string
   // readonly href: string
@@ -12,37 +13,44 @@ export interface LayerData {
 export const micro: ReadonlyArray<LayerData> = [
   {
     title: 'particle/waves',
-    text: 'photons, electrons, quarks, etc',
+    subtitle: 'photons, electrons, quarks, etc',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'nuclei',
-    text: 'nucleons: quark/gluon cloud foam',
+    subtitle: 'nucleons: quark/gluon cloud foam',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'atoms',
-    text: 'nucleus + electron orbitals',
+    subtitle: 'nucleus + electron orbitals',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'molecules',
-    text: 'reactive matter patterns',
+    subtitle: 'reactive matter patterns',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'biomolecules',
-    text: 'protein machines, dna/rna code',
+    subtitle: 'protein machines, dna/rna code',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'cells',
-    text: 'single-celled organisms, organelles',
+    subtitle: 'single-celled organisms, organelles',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'organs',
-    text: 'flesh body, guts & meat & bone',
+    subtitle: 'flesh body, guts & meat & bone',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
 ]
@@ -50,12 +58,14 @@ export const micro: ReadonlyArray<LayerData> = [
 export const us: ReadonlyArray<LayerData> = [
   {
     title: 'individual conciousness',
-    text: 'personal experience',
+    subtitle: 'personal experience',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'collective consciousness',
-    text: 'shared experience',
+    subtitle: 'shared experience',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
 ]
@@ -63,37 +73,44 @@ export const us: ReadonlyArray<LayerData> = [
 export const macro: ReadonlyArray<LayerData> = [
   {
     title: 'ecosystems',
-    text: 'plant world - web of life',
+    subtitle: 'plant world - web of life',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'regions',
-    text: 'land world - climate, water, terrain',
+    subtitle: 'land world - climate, water, terrain',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'planets',
-    text: 'core, atmosphere, magnetosphere, moons',
+    subtitle: 'core, atmosphere, magnetosphere, moons',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'stars',
-    text: 'fusion body, solar wind, belts, planets, cloud',
+    subtitle: 'fusion body, solar wind, belts, planets, cloud',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'galaxies',
-    text: 'core, accretion disk, magnetic field',
+    subtitle: 'core, accretion disk, magnetic field',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'web',
-    text: 'largest scale structure - filaments & voids',
+    subtitle: 'largest scale structure - filaments & voids',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'background radiation',
-    text: 'initial light, observable limit',
+    subtitle: 'initial light, observable limit',
+    text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
 ]

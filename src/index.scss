@@ -3,6 +3,10 @@ html {
   padding: 10px 20px 30px;
 }
 
+h1 {
+  font-size: 24px;
+}
+
 .layer {
   display: flex;
   margin-bottom: 10px;
@@ -10,7 +14,7 @@ html {
   .thumb {
     flex: none;
 
-    $size: 75px;
+    $size: 60px;
     width: $size;
     height: $size;
   }
@@ -25,12 +29,19 @@ html {
     padding: 10px;
 
     .title {
-      font-size: 18px;
+      font-size: 14px;
       font-weight: bold;
 
       margin-bottom: 1px;
 
       opacity: 0.9;
+
+      .subtitle {
+        font-style: italic;
+        font-weight: normal;
+
+        margin-left: 0.3em;
+      }
     }
 
     .text {
