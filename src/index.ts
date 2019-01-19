@@ -1,7 +1,7 @@
 import { createElement } from 'react'
 import { render } from 'react-dom'
 
-import { App } from './components/App'
+import { Root } from './components/Root'
 
 // tslint:disable-next-line:no-expression-statement
-render(createElement(App), document.getElementById('root'))
+render(createElement(Root), document.getElementById('root'))

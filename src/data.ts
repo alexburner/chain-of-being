@@ -10,46 +10,48 @@ export interface LayerData {
   // }
 }
 
+export const title = 'Fractal self-organizing complex systems'
+
 export const micro: ReadonlyArray<LayerData> = [
   {
-    title: 'particle/waves',
-    subtitle: 'photons, electrons, quarks, etc',
+    title: 'particles',
+    subtitle: 'force points : electromagnetic, strong, weak',
     text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'nuclei',
-    subtitle: 'nucleons: quark/gluon cloud foam',
+    subtitle: 'nucleons : protons & neutrons : quark clouds',
     text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'atoms',
-    subtitle: 'nucleus + electron orbitals',
+    subtitle: 'elements : nucleus & electron orbitals',
     text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'molecules',
-    subtitle: 'reactive matter patterns',
+    subtitle: 'chemicals : reactive geometry patterns',
     text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'biomolecules',
-    subtitle: 'protein machines, dna/rna code',
+    subtitle: 'rna/dna code & protein machinery',
     text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'cells',
-    subtitle: 'single-celled organisms, organelles',
+    subtitle: 'smallest unit of life, membrane & organelles',
     text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'organs',
-    subtitle: 'flesh body, guts & meat & bone',
+    subtitle: 'meat body : flesh & bone & guts & brains',
     text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
@@ -73,43 +75,44 @@ export const us: ReadonlyArray<LayerData> = [
 export const macro: ReadonlyArray<LayerData> = [
   {
     title: 'ecosystems',
-    subtitle: 'plant world - web of life',
+    subtitle: 'plant world : solar web of life',
     text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'regions',
-    subtitle: 'land world - climate, water, terrain',
+    subtitle: 'land world : terrain, water, climate',
     text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'planets',
-    subtitle: 'core, atmosphere, magnetosphere, moons',
+    subtitle: 'iron core, atmosphere, magnetic fields, moons',
     text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'stars',
-    subtitle: 'fusion body, solar wind, belts, planets, cloud',
+    subtitle: 'fusion body, solar wind, magnetic fields, planets, belts, cloud',
     text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
     title: 'galaxies',
-    subtitle: 'core, accretion disk, magnetic field',
+    subtitle:
+      'active nucleus, relativistic jets, magnetic fields, accretion disk',
     text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
-    title: 'web',
-    subtitle: 'largest scale structure - filaments & voids',
+    title: 'cosmic web',
+    subtitle: 'largest-scale structure : filaments, walls, voids : network',
     text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
   {
-    title: 'background radiation',
-    subtitle: 'initial light, observable limit',
+    title: 'cosmic background radiation',
+    subtitle: 'original energy, observable limit',
     text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },

@@ -1,7 +1,7 @@
 {
   "name": "chain-of-being",
   "version": "1.0.0",
-  "description": "Layers of self-organizing emergent complexity",
+  "description": "Fractal self-organizing complex systems",
   "engines": {
     "node": "11.6.0",
     "npm": "6.5.0"

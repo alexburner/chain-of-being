@@ -1,6 +1,6 @@
 # chain of being
 
-Layers of self-organizing emergent complexity
+Fractal self-organizing complex systems
 
 # development
 
