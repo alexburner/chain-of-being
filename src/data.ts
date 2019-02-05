@@ -15,7 +15,7 @@ export const title = 'Fractal self-organizing complex systems'
 export const micro: ReadonlyArray<LayerData> = [
   {
     title: 'particles',
-    subtitle: 'force points : electromagnetic, strong, weak',
+    subtitle: 'fields of force : electromagnetic, strong, weak',
     text: '',
     img: 'https://i.imgur.com/V5TzcKkb.jpg',
   },
